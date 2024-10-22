@@ -1,0 +1,7 @@
+services:
+  web:
+    image: nginx
+    volumes:
+      - C:/Users/mendo/OneDrive/Escritorio/src:/usr/share/nginx/html
+    ports:
+      - "80:80"
